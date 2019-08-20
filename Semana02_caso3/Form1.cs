@@ -34,7 +34,6 @@ namespace Semana02_caso3
                         da.Fill(df, "ListaMes");
                         cbMes.DataSource = df.Tables["ListaMes"];
                         cbMes.DisplayMember = "Mes";
-                        cbMes.ValueMember = "Mes";
                     }
                 }
             }
